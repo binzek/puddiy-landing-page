@@ -109,3 +109,42 @@ body {
   border: 2px solid #d8cca3;
   width: 80%;
 }
+
+#features {
+  background-color: white;
+  color: #87805e;
+}
+
+#features h1 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 2.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#features > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #87805e;
+  width: 20%;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.feature img {
+  width: 80%;
+}
+
+.feature h4 {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
