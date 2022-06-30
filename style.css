@@ -239,3 +239,24 @@ body {
   border-radius: 10px;
   border: 3px solid #d8cca3;
 }
+
+#footer {
+  background-color: #d8cca3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#footer p {
+  font-size: 1.2rem;
+  font-family: monospace;
+}
+
+#footer p a {
+  color: black;
+}
+
+#footer > a {
+  padding: 10px;
+}
