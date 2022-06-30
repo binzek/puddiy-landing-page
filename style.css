@@ -151,3 +151,48 @@ body {
   font-family: sans-serif;
   font-size: 1.2rem;
 }
+
+#testimonials {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.testimonial {
+  background-color: black;
+  color: white;
+  width: 40%;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.testimonial > p {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.testimonial__author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.testimonial__author img {
+  width: 40px;
+}
+
+.testimonial__author p {
+  color: #d8cca3;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+}
