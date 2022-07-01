@@ -277,3 +277,119 @@ body {
 #footer > a {
   padding: 10px;
 }
+
+@media (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar__logo {
+    margin: 25px 0;
+    width: 100%;
+  }
+
+  .navbar__nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .navbar__nav ul {
+    width: 80%;
+  }
+
+  .intro {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .intro__text {
+    width: 100%;
+    order: 2;
+    align-items: center;
+  }
+
+  .intro__text h1 {
+    font-size: 2.1rem;
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .intro__text p {
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .intro__text a div {
+    margin: 20px 0;
+  }
+
+  .intro__image {
+    order: 1;
+    width: 100%;
+  }
+
+  .intro__image img {
+    width: 90%;
+  }
+
+  #features h1 {
+    margin: 25px 0;
+  }
+
+  #features > div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 80%;
+    margin: 20px;
+  }
+
+  .feature:hover {
+    width: 85%;
+  }
+
+  #testimonials {
+    flex-direction: column;
+    margin: 50px 0;
+    align-items: center;
+  }
+
+  .testimonial {
+    width: 90%;
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial > p {
+    width: 100%;
+  }
+
+  .testimonial__author {
+    width: 50%;
+    margin: 20px 0 0 auto;
+  }
+
+  #cta {
+    padding: 10px 15px 50px 15px;
+  }
+
+  #cta > div {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #cta > div > a > div {
+    margin: 20px 0 0 0;
+  }
+
+  #footer p {
+    font-size: 1.1rem;
+  }
+}
