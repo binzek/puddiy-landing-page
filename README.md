@@ -16,7 +16,7 @@
   - Grid
   - Little hover effects
 
-**Live link - https://wajid-nv.github.io/puddiy/landing-page/**
+**Live link - https://wajid-nv.github.io/puddiy-landing-page/**
 
 - _It is responsive on almost all devices_
 
